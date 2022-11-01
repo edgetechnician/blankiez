@@ -60,15 +60,14 @@ export const StyledLogo = styled.img`
   @media (min-width: 767px) {
     width: 300px;
   }
-  animation: floating 3s cubic-bezier(0.45, -0.36, 0.72, 1.03) infinite alternate;
   transition: width 0.5s;
   transition: height 0.5s;
 `;
 
 export const StyledImg = styled.img`
+  animation: glide 2s ease-in-out alternate infinite;
   width: 40%;
   justify-content-left;
-  animation: floating 3s cubic-bezier(0.45, -0.36, 0.72, 1.03) infinite alternate;
 `;
 
 export const StyledLink = styled.a`
