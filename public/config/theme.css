@@ -1,13 +1,13 @@
 :root {
-    --primary: #1a1a1a;
+    --primary: #ffffff;
     --primary-text: #fff;
-    --secondary: #7bc9aa;
+    --secondary: #ffffff;
     --secondary-text: #ffffff;
-    --accent: #505050;
+    --accent: #ffffff;
     --accent-text: #ffffff;
 
     --button-color: rgba(0, 0, 0, .45);
-    --box-color: rgba(0, 0, 0, .25);
+    --box-color: rgba(0, 0, 0, .45);
 
     --transparent: transparent;
 }
