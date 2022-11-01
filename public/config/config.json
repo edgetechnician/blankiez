@@ -1,0 +1,26 @@
+{
+  "CONTRACT_ADDRESS": "0x8Ad6bdfd58E156Eb5Aa8B7c2298F02A66cd9Cb1c",
+
+  "SCAN_LINK": "https://ftmscan.com/token/0x8Ad6bdfd58E156Eb5Aa8B7c2298F02A66cd9Cb1c",
+  "WEBSITE_LINK": "https://fantomville.com/",
+  "TWITTER_LINK": "https://twitter.com/underscoreLu",
+  "DISCORD_LINK": "https://discord.gg/wovven",
+
+  "NETWORK": {
+    "NAME": "Fantom Mainnet",
+    "SYMBOL": "FTM",
+    "ID": 250
+  },
+
+  "NFT_NAME": "Blankiez",
+  "SYMBOL": "BLKZ",
+  "MAX_SUPPLY": 200,
+  "WEI_COST": 99999999999999999999999,
+  "DISPLAY_COST": 9999,
+  "GAS_LIMIT": 355000,
+
+  "MARKETPLACE": "TOFU",
+  "MARKETPLACE_LINK": "https://tofunft.com",
+
+  "SHOW_BACKGROUND": true
+}
