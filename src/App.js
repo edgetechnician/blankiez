@@ -186,8 +186,7 @@ function App() {
       >
         <s.SpacerSmall />
               <ResponsiveWrapper flex={1} style={{ padding: 24, flexDirection: 'row', justifyContent: 'flex-end' }} test>
-        <s.StyledImg src={"/config/images/logo.png"}>
-              </s.StyledImg>
+        <StyledImg src={"/config/images/logo.png"}/>
 
           <s.Container
             flex={2}
