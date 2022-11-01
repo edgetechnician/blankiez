@@ -191,6 +191,7 @@ function App() {
                 style={{ padding: 24, animation: 'glide 2s ease-in-out alternate infinite'}}
           image={"/config/images/logo.png"}
         >
+        </s.Container>
           <s.Container
             flex={2}
             jc={"center"}
