@@ -184,8 +184,13 @@ function App() {
       >
         <s.SpacerSmall />
               <ResponsiveWrapper flex={1} style={{ padding: 24, flexDirection: 'row', justifyContent: 'flex-end'}} test>
-        <StyledImg src={"/config/images/logo.png" style={{animation: 'glide 2s ease-in-out alternate infinite'}}}/>
-
+        <s.Container
+          flex={1}
+          jc={"center"}
+          ai={"left"}
+                style={{ padding: 24, animation: 'glide 2s ease-in-out alternate infinite'}}
+          image={"/config/images/logo.png"}
+        >
           <s.Container
             flex={2}
             jc={"center"}
