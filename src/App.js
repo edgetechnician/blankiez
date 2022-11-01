@@ -65,8 +65,7 @@ export const StyledLogo = styled.img`
 `;
 
 export const StyledImg = styled.img`
-  animation: glide 2s ease-in-out alternate infinite;
-  width: 40%;
+  width: 200px;
   justify-content-left;
 `;
 
@@ -184,8 +183,8 @@ function App() {
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
       >
         <s.SpacerSmall />
-              <ResponsiveWrapper flex={1} style={{ padding: 24, flexDirection: 'row', justifyContent: 'flex-end' }} test>
-        <StyledImg src={"/config/images/logo.png"}/>
+              <ResponsiveWrapper flex={1} style={{ padding: 24, flexDirection: 'row', justifyContent: 'flex-end'}} test>
+        <StyledImg src={"/config/images/logo.png" style={{animation: 'glide 2s ease-in-out alternate infinite'}}}/>
 
           <s.Container
             flex={2}
